@@ -8,7 +8,7 @@ const apiClient = axios.create({
     },
 });
 
-export function setAuthorization(Authorization: any) {
+export function setAuthorization(Authorization: any): void {
     apiClient.defaults.headers.common.Authorization = Authorization;
 }
 
