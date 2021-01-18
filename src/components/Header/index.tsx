@@ -37,6 +37,7 @@ const LinkStyled = styled('a')`
     &:focus {
         border-bottom: 0.2em solid ${ThemeConf.default.links.focusColor};
     }
+    cursor: pointer;
 `;
 
 const NavStyled = styled('nav')`

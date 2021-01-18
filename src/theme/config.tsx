@@ -9,6 +9,7 @@ const Theme = {
             small: '1em',
             medium: '1.6em',
             big: '2em',
+            bigBig: '3em',
             heading: {
                 h1: '3em',
             },
